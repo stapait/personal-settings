@@ -1,0 +1,12 @@
+{
+  "editor.fontSize": 20,
+  "editor.fontFamily": "'Inconsolata'",
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorTheme": "crayon-vscode",
+  "workbench.iconTheme": "sherumite-icon-theme",
+  "workbench.startupEditor": "newUntitledFile"
+}
