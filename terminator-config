@@ -1,0 +1,27 @@
+[global_config]
+  title_transmit_bg_color = "#3c186b"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      size = 1400, 900
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      size = 1400, 900
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#000000"
+    cursor_color = "#aaaaaa"
+    font = DejaVu Sans Mono 12
+    foreground_color = "#00cd00"
+    icon_bell = False
+    login_shell = True
+    palette = "#073642:#bdb76b:#859900:#b58900:#ffd700:#d33682:#2aa198:#eee8d5:#002b36:#8b0000:#00ff00:#657b83:#1e90ff:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
