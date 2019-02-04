@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/fabio/.oh-my-zsh"
+  export ZSH="~/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -94,12 +94,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-#export JAVA_HOME=/home/fabio/jre1.8.0_73
-export JAVA_HOME=/home/fabio/jdk1.8.0_171
+export JAVA_HOME=~/jdk1.8.0_171
 export PATH=$PATH:$JAVA_HOME/bin
 
 export GOROOT=/usr/local/go
-export GOPATH=/home/fabio/projects/go
+export GOPATH=~/projects/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 
@@ -112,7 +111,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 unsetopt share_history
 
-export PATH=$PATH:/home/fabio/.local/bin
+export PATH=$PATH:~/.local/bin
 
-export PATH=$PATH:/home/fabio/protoc/bin
-export PATH=$PATH:/home/fabio/minishift-1.27.0-linux-amd64
+export PATH=$PATH:~/protoc/bin
+export PATH=$PATH:~/minishift-1.27.0-linux-amd64
