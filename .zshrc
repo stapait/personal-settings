@@ -7,7 +7,10 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="bira"
+
+
+# Comment RPROMPT in  ~/.oh-my-zsh/themes/dst.zsh-them to hide date
+ZSH_THEME="dst"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -94,13 +97,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
+unsetopt share_history
+
 export JAVA_HOME=~/jdk1.8.0_171
 export PATH=$PATH:$JAVA_HOME/bin
 
 export GOROOT=/usr/local/go
 export GOPATH=~/projects/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -109,9 +113,4 @@ export NVM_DIR="$HOME/.nvm"
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-unsetopt share_history
-
 export PATH=$PATH:~/.local/bin
-
-export PATH=$PATH:~/protoc/bin
-export PATH=$PATH:~/minishift-1.27.0-linux-amd64
