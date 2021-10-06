@@ -1,0 +1,30 @@
+_id: req_4b218559c1934dceb989ebf4117e5457
+type: Request
+parentId: fld_79b0bde0773b491c9c7842e08e7c8cb6
+modified: 1629740316306
+created: 1625421671666
+url: http://localhost:3000/users/fabio/calendars
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    	{	  
+    		"calendar": "calendar1",
+    		"displayName": "meu calendario1"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b0f0a65324e3465591b9f17ce46f4d4e
+authentication: {}
+metaSortKey: -1625419284181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

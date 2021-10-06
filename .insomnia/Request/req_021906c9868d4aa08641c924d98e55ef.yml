@@ -1,0 +1,27 @@
+_id: req_021906c9868d4aa08641c924d98e55ef
+type: Request
+parentId: fld_79b0bde0773b491c9c7842e08e7c8cb6
+modified: 1631900709796
+created: 1625419284056
+url: http://localhost:3000/users/calendars
+name: list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_670d3ac321d741e08675151714c5e57f
+    name: Cookie
+    value: calendar=s%3Aj%3A%7B%22username%22%3A%22joao%22%7D.QIsPDxOnwwPA74KTFQZAEMS7XTUdGdHcOMi0Dz2oktQ;
+      Domain=localhost; Path=/; Expires=Mon, 27 Sep 2021 17:35:16 GMT; HttpOnly;
+      Secure
+    description: ""
+authentication: {}
+metaSortKey: -1625419284206
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

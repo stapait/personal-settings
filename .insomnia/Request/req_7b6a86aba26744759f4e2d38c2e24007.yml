@@ -1,0 +1,23 @@
+_id: req_7b6a86aba26744759f4e2d38c2e24007
+type: Request
+parentId: fld_f4210b28a54a4afc90dd985d2d321f47
+modified: 1631138289187
+created: 1631138233105
+url: http://localhost:3000/users/fabio/migration
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629395798775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

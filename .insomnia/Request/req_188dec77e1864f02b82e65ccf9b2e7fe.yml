@@ -1,0 +1,23 @@
+_id: req_188dec77e1864f02b82e65ccf9b2e7fe
+type: Request
+parentId: fld_f4210b28a54a4afc90dd985d2d321f47
+modified: 1631139298035
+created: 1631139282703
+url: http://localhost:3000/users/fabio/migration
+name: Delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629388514233
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,42 @@
+_id: req_254c4156fa4d4890add5b502959e50df
+type: Request
+parentId: fld_1299ef9198e3409e98888eda42d3d768
+modified: 1633028502848
+created: 1632921757193
+url: http://localhost:3000/users/events
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"calendar": "default",
+    	"name": "teste2",
+    	"start": "2021-09-30 10:10:00",
+    	"end": "2021-09-30 11:24:00",
+    	"description": "this is description",
+    	"attendees": [
+    		{ "name": "joao", "email": "joao@uol.com.br" }
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_152fe2525b6342ca902680b32f0bd41b
+  - id: pair_9a1fd40c44804d8c84149d33dc0125c8
+    name: Cookie
+    value: calendar=s%3Aj%3A%7B%22username%22%3A%22fabio%22%7D.2ayeg3URkylWl2jKpxGVLa6NBY%2FpS%2B6E1Hq3j%2BM6hcA;
+      Domain=localhost; Path=/; Expires=Sat, 09 Oct 2021 12:42:08 GMT; HttpOnly;
+      Secure
+    description: ""
+authentication: {}
+metaSortKey: -1632921757193
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

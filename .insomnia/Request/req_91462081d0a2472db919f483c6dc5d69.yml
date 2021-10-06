@@ -1,0 +1,39 @@
+_id: req_91462081d0a2472db919f483c6dc5d69
+type: Request
+parentId: fld_1d32dbbce3954df98b4a7b3ef8978672
+modified: 1633115831442
+created: 1629395798775
+url: http://localhost:3000/users/configs
+name: Create or update
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"eventLength": 30,
+    	"alarmEnabled": true,
+    	"alarmTime": 30,
+    	"viewFormat": "M",
+    	"timezone": "America/Sao_Paulo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_22fc28cfba33420ca110900fe448dffd
+  - id: pair_0f677a4b970442209747076f174b8a8b
+    name: Cookie
+    value: calendar=s%3Aj%3A%7B%22username%22%3A%22fabio%22%7D.2ayeg3URkylWl2jKpxGVLa6NBY%2FpS%2B6E1Hq3j%2BM6hcA;
+      Domain=localhost; Path=/; Expires=Sat, 09 Oct 2021 12:42:08 GMT; HttpOnly;
+      Secure
+    description: ""
+authentication: {}
+metaSortKey: -1629395798775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_5e38e468916d423f90addc37d8e28f67
+type: Request
+parentId: fld_4ebfd28bf1fc47ee92079a1887b2806e
+modified: 1633116892446
+created: 1625683917267
+url: http://localhost:3000/users
+name: Delete user
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_835010db59de4cc490f3dee916d3a069
+    name: Cookie
+    value: calendar-jwt=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidGVzdGUiLCJlbWFpbCI6InRlc3RlQHVvbC5jb20uYnIiLCJuYW1lIjoidGhlIGZ1bGwgbmFtZSBvZiB0ZXN0ZSIsImlhdCI6MTYzMzExNjg4MSwiZXhwIjoxNjY0NjUyODgxfQ.hvgG-6YIo2yLppK6dgBDOEV9iysNHXmuTE9gL5ubKJn8L3ekV4zMGBTuuJEbl9PoGiPxLMNC5L6wc3lgEXXF2FcZiztvomPTOq5j7S2z6rvkIFeQc83tPONgf2VyZvrr0139fmHW2sYOxuNgbARZF_MxZ8rOMCum4qh_xm_-bkgaWeL7o82eRU0Sm62XP-Viec_EJgMvMNKsTXjNOJfiV3yncrpLsZSCC5zWMLThGVmQePb33IrQrFA9Xn6R-TGmS87ogbJJjzA-RMBTQXZmjXgKCnERxv_iXWk9S-OPaF6SB_9UkomvjDKVkaK60SkFtNeEveUYDF3E4VuqTEcbrQ
+    description: ""
+authentication: {}
+metaSortKey: -1625683917267
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

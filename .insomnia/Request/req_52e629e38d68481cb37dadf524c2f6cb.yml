@@ -1,0 +1,27 @@
+_id: req_52e629e38d68481cb37dadf524c2f6cb
+type: Request
+parentId: fld_1d32dbbce3954df98b4a7b3ef8978672
+modified: 1633103029332
+created: 1629381229691
+url: http://localhost:3000/users/configs
+name: Get config from user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d96eb5ecffc747d5836356972c9cbdb5
+    name: Cookie
+    value: calendar=s%3Aj%3A%7B%22username%22%3A%22fabio%22%7D.2ayeg3URkylWl2jKpxGVLa6NBY%2FpS%2B6E1Hq3j%2BM6hcA;
+      Domain=localhost; Path=/; Expires=Sat, 09 Oct 2021 12:42:08 GMT; HttpOnly;
+      Secure
+    description: ""
+authentication: {}
+metaSortKey: -1629381229691
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
