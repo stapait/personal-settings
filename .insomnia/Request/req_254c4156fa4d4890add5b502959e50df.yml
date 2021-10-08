@@ -1,10 +1,10 @@
 _id: req_254c4156fa4d4890add5b502959e50df
 type: Request
 parentId: fld_1299ef9198e3409e98888eda42d3d768
-modified: 1633028502848
+modified: 1633620339661
 created: 1632921757193
 url: http://localhost:3000/users/events
-name: Create
+name: Create event
 description: ""
 method: POST
 body:
@@ -13,11 +13,14 @@ body:
     {
     	"calendar": "default",
     	"name": "teste2",
-    	"start": "2021-09-30 10:10:00",
-    	"end": "2021-09-30 11:24:00",
+    	"start": "2021-10-07 11:10:00",
+    	"end": "2021-10-07 12:24:00",
+    	"timezone": "Asia/Tokyo",
     	"description": "this is description",
     	"attendees": [
-    		{ "name": "joao", "email": "joao@uol.com.br" }
+    		{ "name": "joao", "email": "joao@uol.com.br" },
+    		{ "name": "joao2", "email": "joao2@uol.com.br" },
+    		{ "email": "joao3@uol.com.br" }
     	]
     }
 parameters: []
@@ -28,7 +31,7 @@ headers:
   - id: pair_9a1fd40c44804d8c84149d33dc0125c8
     name: Cookie
     value: calendar=s%3Aj%3A%7B%22username%22%3A%22fabio%22%7D.2ayeg3URkylWl2jKpxGVLa6NBY%2FpS%2B6E1Hq3j%2BM6hcA;
-      Domain=localhost; Path=/; Expires=Sat, 09 Oct 2021 12:42:08 GMT; HttpOnly;
+      Domain=localhost; Path=/; Expires=Sat, 16 Oct 2021 16:08:36 GMT; HttpOnly;
       Secure
     description: ""
 authentication: {}

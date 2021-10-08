@@ -1,7 +1,7 @@
 _id: req_ad6388cd59bd4c878ac620d4b8d18095
 type: Request
 parentId: fld_4ebfd28bf1fc47ee92079a1887b2806e
-modified: 1633117074279
+modified: 1633536456922
 created: 1625678529583
 url: http://localhost:3000/users
 name: Get one user
@@ -19,14 +19,14 @@ headers:
     name: Cookie
     value: calendar-jwt=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZmFiaW8iLCJlbWFpbCI6ImZhYmlvQHVvbC5jb20uYnIiLCJuYW1lIjoidGhlIHVzZXJuYW1lIiwiaWF0IjoxNjMxNzM2MjY5LCJleHAiOjE2NjMyNzIyNjl9.fL2SNmtsNYiLg0P1BvkRZfYk0xBokcxzXYvabPqTSIg5QtLVNqk5xLQGiMlbTBJquoo26D-qoljNEy111dxPlB3MD_HPr6ganOfI4HBY8hEexDSYy0SxBjcKFuhHMIDFwQj612p6T22MGyNvKTK1hhZ8FWf0_SQBkQy5AiESnyGmxHnVxcUly0Qjpj8OzeCHilW5W11DRXaUiGLUAvgir-_vIKAkpH3wQULBoTrXEC3VXCdxVbXaoeeziHEkuLyUdHC54GF2r5x0SEFIZDtqj82MTDFcCQmRRiBPa_kmZ0l8xXHy4jwhWVqAsL8wZieiOmv4IK9eD4vN95u7Jz9N2g
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_c3a17dffb4ca46479426aef03987a76a
     name: Cookie
     value: calendar=s%3Aj%3A%7B%22username%22%3A%22fabio%22%7D.2ayeg3URkylWl2jKpxGVLa6NBY%2FpS%2B6E1Hq3j%2BM6hcA;
       Domain=localhost; Path=/; Expires=Mon, 11 Oct 2021 19:35:25 GMT; HttpOnly;
       Secure
     description: ""
-    disabled: false
+    disabled: true
 authentication: {}
 metaSortKey: -1625678529583
 isPrivate: false
