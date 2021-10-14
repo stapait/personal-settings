@@ -1,7 +1,7 @@
 _id: req_254c4156fa4d4890add5b502959e50df
 type: Request
 parentId: fld_1299ef9198e3409e98888eda42d3d768
-modified: 1633620339661
+modified: 1633713345833
 created: 1632921757193
 url: http://localhost:3000/users/events
 name: Create event
@@ -13,8 +13,8 @@ body:
     {
     	"calendar": "default",
     	"name": "teste2",
-    	"start": "2021-10-07 11:10:00",
-    	"end": "2021-10-07 12:24:00",
+    	"start": "2021-10-07 15:10:00",
+    	"end": "2021-10-07 16:24:00",
     	"timezone": "Asia/Tokyo",
     	"description": "this is description",
     	"attendees": [

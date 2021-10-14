@@ -1,9 +1,9 @@
 _id: req_7d918e775b6e45a1bb0fff6ff926113e
 type: Request
 parentId: fld_1299ef9198e3409e98888eda42d3d768
-modified: 1633623012516
+modified: 1633711484423
 created: 1633455712154
-url: http://localhost:3000/users/events?calendar=default&timezone=America/Sao_Paulo&uid=ea087715-4937-4328-8d8e-5d14669bd92a
+url: http://localhost:3000/users/events?calendar=default&timezone=America/Sao_Paulo&uid=77f69784-31eb-424f-b910-cfe1c64d3fa1
 name: Get event
 description: ""
 method: GET
